@@ -6,8 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      maxHeight:{
+      maxWidth:{
         'container' : "1320px"
+      },
+      colors:{
+        'blue':"#4262ff"
       }
     },
   },
