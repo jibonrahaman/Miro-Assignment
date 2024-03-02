@@ -1,6 +1,8 @@
 
-export default function Images({src,alt,className}) {
+function Images({className,alt,src}) {
   return (
-    <img src={src} alt={alt} className={`w-full h-full ${className}`} />
+   <img className={` ${className}`} src={src} alt={alt} />
   )
 }
+
+export default Images
