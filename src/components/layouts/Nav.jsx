@@ -15,7 +15,6 @@ export default function Nav() {
             <ul className="flex gap-x-5">
               <Flex className="items-center gap-x-1">
               <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Product</li>
-
                 <FaAngleDown />
               </Flex>
               <Flex className="items-center gap-x-1">
@@ -27,8 +26,7 @@ export default function Nav() {
                 <FaAngleDown />
               </Flex>
               <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Enterprise</li>
-              
-              <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Pricing</li>
+                <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Pricing</li>
             </ul>
           </Flex>
         </Flex>
@@ -39,7 +37,7 @@ export default function Nav() {
           </Flex>
           <h4>Contact Sales</h4>
           <button>Login</button>
-          <button className="px-5 py-1 text-center bg-blue text-white rounded-2xl border hover:bg-transparent hover:text-blue duration-300">Sign up free →</button>
+          <button className="px-5 py-2 text-center bg-blue text-white rounded-full border hover:bg-transparent hover:text-blue duration-300">Sign up free →</button>
         </Flex>
       </Flex>
     </nav>
