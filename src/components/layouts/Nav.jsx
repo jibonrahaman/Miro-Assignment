@@ -6,6 +6,7 @@ import { TbWorld } from "react-icons/tb";
 
 export default function Nav() {
   return (
+     // 1nd part of project
     <section>
       <nav className="max-w-container mx-auto pt-5 font-inter font-normal"> 
       <Flex className='items-center justify-between'>
