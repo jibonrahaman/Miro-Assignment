@@ -11,6 +11,9 @@ export default {
       },
       colors:{
         'blue':"#4262ff"
+      },
+      fontFamily:{
+        'inter': ["Inter"] 
       }
     },
   },
