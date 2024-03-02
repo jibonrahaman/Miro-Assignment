@@ -6,7 +6,8 @@ import { TbWorld } from "react-icons/tb";
 
 export default function Nav() {
   return (
-    <nav className="max-w-container mx-auto pt-5 font-inter font-normal"> 
+    <section>
+      <nav className="max-w-container mx-auto pt-5 font-inter font-normal"> 
       <Flex className='items-center justify-between'>
         <Flex className="gap-x-6 items-center">
         <Images src={miroLogo} alt={miroLogo} />
@@ -42,5 +43,7 @@ export default function Nav() {
         </Flex>
       </Flex>
     </nav>
+    <div className=" border mt-8"></div>
+    </section>
   );
 }
