@@ -13,19 +13,21 @@ export default function Nav() {
           <Flex className="gap-x-5 mt-2">
             <ul className="flex gap-x-5">
               <Flex className="items-center gap-x-1">
-                <li>Product</li>
+              <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Product</li>
+
                 <FaAngleDown />
               </Flex>
               <Flex className="items-center gap-x-1">
-                <li>Solutions</li>
+                <li  className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full" >Solutions</li>
                 <FaAngleDown />
               </Flex>
               <Flex className="items-center gap-x-1">
-                <li>Resources</li>
+                <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Resources</li>
                 <FaAngleDown />
               </Flex>
-              <li>Enterprise</li>
-              <li>Pricing</li>
+              <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Enterprise</li>
+              
+              <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Pricing</li>
             </ul>
           </Flex>
         </Flex>
