@@ -1,12 +1,13 @@
 import CollaborateSvg from "../common/CollaborateSvg";
 import Flex from "../common/Flex";
+import Heading from '../common/Heading'
 
 export default function Collaborate() {
   return (
          // 4nd part of project
    <section className=" max-w-container mx-auto px-28 pt-24">
       <div className=" flex text-center  justify-center relative" >
-      <h2 className=" text-5xl w-[45%]  font-bold font-inter ">Collaborate without constraints</h2>
+     <Heading  text='Collaborate without constraints'/>
       <CollaborateSvg className=" absolute top-[-71px] right-64 "/>
       </div>
        <Flex className=" justify-between pt-10">

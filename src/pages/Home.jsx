@@ -1,3 +1,4 @@
+import Built from "../components/layouts/Built";
 import Collaborate from "../components/layouts/Collaborate";
 import Connect from "../components/layouts/Connect";
 import Ideas from "../components/layouts/Ideas";
@@ -16,6 +17,7 @@ export default function Home() {
     <Work/>
     <Connect/>
     <Ways/>
+    <Built/>
     </div>
   )
 }
