@@ -25,6 +25,9 @@ export default function Collaborate() {
 at our  <span className=" text-blue">Trust Center</span> . </p>
      </div>
           </Flex>
+        <div className=" flex justify-center  my-8 "> 
+             <button className=" px-8 py-3 bg-blue rounded-full border hover:bg-transparent hover:text-black duration-500  font-medium  text-white">Sign up free →</button>
+        </div>
    </section>
   )
 }
