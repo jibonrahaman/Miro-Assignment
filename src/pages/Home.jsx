@@ -1,4 +1,5 @@
 import Collaborate from "../components/layouts/Collaborate";
+import Connect from "../components/layouts/Connect";
 import Ideas from "../components/layouts/Ideas";
 import Just_Icon from "../components/layouts/Just_Icon";
 import Nav from "../components/layouts/Nav";
@@ -12,6 +13,7 @@ export default function Home() {
     <Just_Icon />
     <Collaborate />
     <Work/>
+    <Connect/>
     </div>
   )
 }
