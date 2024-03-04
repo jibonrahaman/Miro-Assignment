@@ -8,6 +8,8 @@ import Loved from "../components/layouts/Loved";
 import Nav from "../components/layouts/Nav";
 import Ways from "../components/layouts/Ways";
 import Work from "../components/layouts/Work";
+import Footer from "../components/layouts/Footer";
+
 
 export default function Home() {
   return (
@@ -22,6 +24,7 @@ export default function Home() {
     <Built/>
     <BuiltFor/>
     <Loved/>
+  <Footer/>
     </div>
   )
 }

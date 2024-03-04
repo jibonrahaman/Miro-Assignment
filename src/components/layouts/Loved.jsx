@@ -6,13 +6,13 @@ import jane from '/images/jane.jpg'
 import laura from '/images/laura.jpg'
 export default function Loved() {
   return (
-    <section className=" max-w-container mx-auto pt-14">
+    <section className=" max-w-container mx-auto py-20">
    <div className=' flex flex-col items-center gap-y-5'>
    <Heading text="Loved by the world's best teams"/>
-   <button className=' px-6 py-2 border rounded-full duration-500 hover:bg-blue hover:text-white text-lg'>See all customer stories →</button>
+   <button className=' px-6 py-2 mt-2 border rounded-full duration-500 hover:bg-blue hover:text-white text-lg'>See all customer stories →</button>
       </div> 
 
-      <Flex className=' justify-between'>
+      <Flex className=' justify-between pt-10'>
        <div className=' w-72'>
         {/* 1st svg  */}
 <svg width="288" height="62" viewBox="0 0 288 62" fill="none" >
