@@ -1,4 +1,5 @@
 import Built from "../components/layouts/Built";
+import BuiltFor from "../components/layouts/BuiltFor";
 import Collaborate from "../components/layouts/Collaborate";
 import Connect from "../components/layouts/Connect";
 import Ideas from "../components/layouts/Ideas";
@@ -18,6 +19,7 @@ export default function Home() {
     <Connect/>
     <Ways/>
     <Built/>
+    <BuiltFor/>
     </div>
   )
 }
