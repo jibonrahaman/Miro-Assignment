@@ -38,7 +38,7 @@ export default function BuiltFor() {
          </Flex>
           <button className=' text-blue font-medium pb-8'>Learn more →</button>
           <h5 className='text-[#504d74] '>Integrate your favorite tools</h5>
-          <Flex className=' gap-x-3 pt-5'>
+          <Flex className='gap-x-4 pt-5'>
            <Images src={d} alt={d}/>
            <Images src={x} alt={x}/>
            <Images src={f} alt={f}/>
