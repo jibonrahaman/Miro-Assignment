@@ -1,7 +1,13 @@
 import Heading from '../common/Heading'
 import Flex from '../common/Flex'
 import Images from '../common/Images'
-import built from '/images/built.png'
+import builtFor from '/images/builtFor.jpg'
+import { MdCheck } from 'react-icons/md';
+import d from '/images/d.png'
+import x from '/images/x.png'
+import f from '/images/f.png'
+import n from '/images/n.png'
+
 export default function BuiltFor() {
   return (
     <section className=" max-w-container mx-auto  pt-24">
@@ -17,13 +23,30 @@ export default function BuiltFor() {
     </Flex>
 
       <Flex className='justify-between pt-5'>
-         <div className=' pt-7'>
-         <Flex>
-         <p className=' text-lg text-[#504d74] pt-5 pb-8 '>Build low-fi wireframes</p>
+         <div className=' pt-10'>
+         <Flex className=' items-center  pb-4 gap-x-2'>
+            <MdCheck/>
+         <p className=' text-lg text-[#504d74] '>Build low-fi wireframes</p>
          </Flex>
-          <button className=' text-blue font-medium'>Learn more →</button>
+         <Flex className=' items-center  pb-4 gap-x-2'>
+            <MdCheck/>
+         <p className=' text-lg text-[#504d74] '>Involve stakeholders in the design process</p>
+         </Flex>
+          <Flex className=' items-center  pb-4 gap-x-2'>
+            <MdCheck/>
+         <p className=' text-lg text-[#504d74] '>Run engaging design workshops</p>
+         </Flex>
+          <button className=' text-blue font-medium pb-8'>Learn more →</button>
+          <h5 className='text-[#504d74] '>Integrate your favorite tools</h5>
+          <Flex className=' gap-x-3 pt-5'>
+           <Images src={d} alt={d}/>
+           <Images src={x} alt={x}/>
+           <Images src={f} alt={f}/>
+           <Images src={n} alt={n}/>
+          
+          </Flex>
          </div>
-         <Images src={built} alt={built} />
+         <Images src={builtFor} alt={builtFor} className='w-3/5'/>
       </Flex>
     </section>
   )
