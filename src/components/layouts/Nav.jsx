@@ -8,7 +8,7 @@ export default function Nav() {
   return (
      // 1nd part of project
     <section>
-      <nav className="max-w-container mx-auto pt-5 font-inter font-normal"> 
+      <nav className="px-28 mx-auto pt-5 font-inter font-normal"> 
       <Flex className='items-center justify-between'>
         <Flex className="gap-x-6 items-center">
         <Images src={miroLogo} alt={miroLogo} />

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       maxWidth:{
-        'container' : "1320px"
+        'container' : "1120px"
       },
       colors:{
         'blue':"#4262ff"

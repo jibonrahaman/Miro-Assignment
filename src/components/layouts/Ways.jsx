@@ -3,7 +3,7 @@ import Images from '../common/Images'
 // import Flex from '../common/Flex'
 export default function Ways() {
   return (
-    <section className=" max-w-container mx-auto pt-14">
+    <section className=" px-28  pt-14">
      <div className=' flex items-end justify-end relative'>
      <Images src={ways} alt={ways}/>
      <div  className=' absolute top-[40%] right-10 text-center'>
