@@ -1,14 +1,14 @@
-import Built from "../components/layouts/Built";
-import BuiltFor from "../components/layouts/BuiltFor";
-import Collaborate from "../components/layouts/Collaborate";
-import Connect from "../components/layouts/Connect";
-import Ideas from "../components/layouts/Ideas";
-import Just_Icon from "../components/layouts/Just_Icon";
-import Loved from "../components/layouts/Loved";
-import Nav from "../components/layouts/Nav";
-import Ways from "../components/layouts/Ways";
-import Work from "../components/layouts/Work";
-import Footer from "../components/layouts/Footer";
+import Built from "../components/layouts/Built.jsx";
+import BuiltFor from "../components/layouts/BuiltFor.jsx";
+import Collaborate from "../components/layouts/Collaborate.jsx";
+import Connect from "../components/layouts/Connect.jsx";
+import Ideas from "../components/layouts/Ideas.jsx";
+import Just_Icon from "../components/layouts/Just_Icon.jsx";
+import Loved from "../components/layouts/Loved.jsx";
+import Nav from "../components/layouts/Nav.jsx";
+import Ways from "../components/layouts/Ways.jsx";
+import Work from "../components/layouts/Work.jsx";
+import Footer from "../components/layouts/Footer.jsx";
 
 
 export default function Home() {
