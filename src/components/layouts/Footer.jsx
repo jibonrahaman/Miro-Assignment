@@ -1,4 +1,4 @@
-import Flex from '../common/Flex'
+import Flex from '../../../src/components/common/Flex'
 import { FaTwitter } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";

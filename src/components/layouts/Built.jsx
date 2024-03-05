@@ -1,6 +1,6 @@
- import Heading from '../common/Heading'
- import Flex from '../common/Flex'
- import Images from '../common/Images'
+ import Flex from '../../../src/components/common/Flex'
+ import Heading from '../../../src/components/common/Heading'
+ import Images from '../../../src/components/common/Images'
  import built from '/images/built.png'
 export default function Built() {
   return (

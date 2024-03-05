@@ -1,5 +1,5 @@
-import Flex from '../common/Flex'
-import Images from '../common/Images'
+import Flex from '../../../src/components/common/Flex'
+import Images from '../../../src/components/common/Images'
 import connect from '/images/connect.png'
 export default function Connect() {
   return (

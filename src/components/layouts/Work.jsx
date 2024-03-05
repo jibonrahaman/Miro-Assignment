@@ -1,7 +1,7 @@
-import Flex from '../common/Flex'
-import Images from '../common/Images'
+import Flex from '../../../src/components/common/Flex'
+import Images from '../../../src/components/common/Images'
 import work from '/images/work.jpg'
-import Heading from '../common/Heading'
+import Heading from '../../../src/components/common/Heading'
 export default function Work() {
   return (
     <section className=" max-w-container mx-auto ">

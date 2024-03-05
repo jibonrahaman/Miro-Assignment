@@ -1,6 +1,6 @@
-import Heading from '../common/Heading'
-import Flex from '../common/Flex'
-import Images from '../common/Images'
+import Heading from '../../../src/components/common/Heading'
+import Flex from '../../../src/components/common/Flex'
+import Images from '../../../src/components/common/Images'
 import builtFor from '/images/builtFor.jpg'
 import { MdCheck } from 'react-icons/md';
 import d from '/images/d.png'

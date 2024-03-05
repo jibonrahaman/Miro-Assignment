@@ -1,6 +1,5 @@
 import ways from '/images/ways.png'
-import Images from '../common/Images'
-// import Flex from '../common/Flex'
+import Images from '../../../src/components/common/Images'
 export default function Ways() {
   return (
     <section className=" px-28  pt-14">
