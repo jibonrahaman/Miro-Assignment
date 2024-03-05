@@ -5,10 +5,12 @@ import { FaAngleDown } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
+import { useState } from 'react';
 
 export default function Nav() {
+  const [show,setShow]=useState(false);
   const handleBars = ()=>{
-    console.log("dd");
+    setShow(true)
   }
   return (
      // 1nd part of project
@@ -49,18 +51,21 @@ export default function Nav() {
         </Flex>
         </div>
         {/* mobile device */}
-         <div className=' md:hidden  block mt-2 pr-6 text-xl'>
+         <div className=' md:hidden  block mt-2  text-xl'>
         <button onClick={handleBars}><FaBars/></button>
-        <div className=' absolute top-0 right-0 bg-gray-600 text-white h-screen w-[50%] text-center pt-5 px-5'>
-        <button className=' absolute top-1 text-2xl text-red-600 right-1'><RxCross1 /></button>
-          <Flex className='items-center pt-6 text-center justify-center gap-x-1 '>
+       {
+        
+        <div className={` absolute  top-0 ${show ? "rotate-x-0" : "rotate-x-90"}  duration-500  right-0 flex flex-col justify-center items-center bg-gray-600 mt-2 text-white h-[40vh] w-full text-center  `}>
+        <button onClick={()=>setShow(false)} className=' absolute top-1 text-2xl text-red-600 right-1'><RxCross1 /></button>
+          <Flex className='items-center   gap-x-1 '>
             <TbWorld />
             <h4>EN</h4>
           </Flex>
           <h4 className=' py-4'>Contact Sales</h4>
           <button>Login</button>
-          <button className="my-4 px-3 py-2 text-center bg-blue text-white rounded-full border hover:bg-transparent hover:text-blue duration-300">Sign up free →</button>
+          <button className="my-4 px-3 w-56 py-2 text-center bg-blue text-white rounded-full border hover:bg-transparent hover:text-blue duration-300">Sign up free →</button>
         </div>
+       }
          </div>
       </Flex>
     </nav>
