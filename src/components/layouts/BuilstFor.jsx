@@ -8,7 +8,7 @@ import x from '/images/x.png'
 import f from '/images/f.png'
 import n from '/images/n.png'
 
-export default function BuiltFor() {
+export default function BuilstFor() {
   return (
     <section className=" max-w-container mx-auto  pt-24">
     <Heading text='Built for all kinds of teams'/>

@@ -2,7 +2,7 @@
  import Heading from '../common/Heading'
  import Images from '../common/Images'
  import built from '/images/built.png'
-export default function Built() {
+export default function Builts() {
   return (
     <section className=" max-w-container mx-auto  pt-24">
     <Heading text='Built for the way you work'/>
