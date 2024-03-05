@@ -2,7 +2,6 @@ import Flex from '../common/Flex'
 import { FaTwitter } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";
-import { FaMinus } from "react-icons/fa6";
 
 export default function Footer() {
   return ( 
