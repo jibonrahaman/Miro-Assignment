@@ -19,8 +19,8 @@ export default function Nav() {
       <Flex className='items-center justify-between'>
         <Flex className="md:gap-x-6 gap-x-2 items-center">
         <Images src={miroLogo} alt={miroLogo} className=' w-16 md:w-full' />
-          <Flex className="gap-x-5  mt-2">
-            <ul className="flex md:gap-x-5 gap-x-2 text-[10px]">
+          <Flex className="gap-x-2 mt-2">
+            <ul className="flex md:gap-x-5 gap-x-2  text-[8px] md:text-base">
               <Flex className="items-center gap-x-1">
               <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Product</li>
                 <FaAngleDown />
@@ -51,7 +51,7 @@ export default function Nav() {
         </Flex>
         </div>
         {/* mobile device */}
-         <div className=' md:hidden  block mt-2  text-xl'>
+         <div className=' md:hidden  block mt-3  text-xl'>
         <button onClick={handleBars}><FaBars/></button>
        {
         
