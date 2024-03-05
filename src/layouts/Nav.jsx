@@ -5,13 +5,26 @@ import { FaAngleDown } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
-import { useState } from 'react';
-
+import { useEffect, useState,useRef } from 'react';
 export default function Nav() {
   const [show,setShow]=useState(false);
   const handleBars = ()=>{
     setShow(true)
   }
+  
+  useEffect(()=>{
+    const falseHover=(e)=>{     
+      if(!dropref.current.contains(e.target)){
+        setShow(false)
+      }
+    }
+    document.addEventListener("mousedown", falseHover);
+    return () => {
+      document.removeEventListener("mousedown", falseHover);
+    };
+  },[]);
+  
+   const dropref=useRef(null);
   return (
      // 1nd part of project
     <section>
@@ -50,12 +63,12 @@ export default function Nav() {
           <button className="px-5 py-2 text-center bg-blue text-white rounded-full border hover:bg-transparent hover:text-blue duration-300">Sign up free →</button>
         </Flex>
         </div>
-        {/* mobile device */}
-         <div className=' md:hidden  block mt-3  text-xl pr-2'>
+        {/*responsive menu */}
+         <div  className=' md:hidden  block mt-3  text-xl pr-2'>
         <button onClick={handleBars}><FaBars/></button>
        {
         
-        <div className={` absolute  top-0 ${show ? "rotate-x-0" : "rotate-x-90"}  duration-500  right-0 flex flex-col justify-center items-center bg-gray-600 mt-2 text-white h-[40vh] w-full text-center  `}>
+        <div ref={dropref} className={` absolute  top-0 ${show ? "rotate-x-0" : "rotate-x-90"}  duration-500  right-0 flex flex-col justify-center items-center bg-gray-600 mt-2 text-white h-[40vh] w-full text-center  `}>
         <button onClick={()=>setShow(false)} className=' absolute top-1 text-2xl text-red-600 right-1'><RxCross1 /></button>
           <Flex className='items-center   gap-x-1 '>
             <TbWorld />
