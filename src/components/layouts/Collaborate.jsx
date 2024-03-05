@@ -1,6 +1,6 @@
 import CollaborateSvg from "../common/CollaborateSvg";
-import Flex from '../../../src/components/common/Flex'
-import Heading from '../../../src/components/common/Heading'
+import Flex from '../common/Flex'
+import Heading from '../common/Heading'
 
 export default function Collaborate() {
   return (

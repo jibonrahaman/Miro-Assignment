@@ -1,12 +1,12 @@
-import Flex from '../../../src/components/common/Flex'
-import Images from '../../../src/components/common/Images'
+import Flex from '../common/Flex'
+import Images from '../common/Images'
 import banner from '/images/banner.jpg'
 import { MdOutlineStarPurple500 } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
 import short1 from '/images/short1.png'
 import short2 from '/images/short2.png'
 import short3 from '/images/short3.png'
-import Heading from '../../../src/components/common/Heading'
+import Heading from '../common/Heading'
 export default function Ideas() {
   return (
     // 2nd part of project

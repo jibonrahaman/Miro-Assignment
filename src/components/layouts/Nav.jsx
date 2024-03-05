@@ -1,5 +1,5 @@
-import Images from '../../../src/components/common/Images'
-import Flex from '../../../src/components/common/Flex'
+import Images from '../common/Images'
+import Flex from '../common/Flex'
 import miroLogo from '/images/miroLogo.png'
 import { FaAngleDown } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
