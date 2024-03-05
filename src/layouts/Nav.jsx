@@ -51,7 +51,7 @@ export default function Nav() {
         </Flex>
         </div>
         {/* mobile device */}
-         <div className=' md:hidden  block mt-3  text-xl'>
+         <div className=' md:hidden  block mt-3  text-xl pr-2'>
         <button onClick={handleBars}><FaBars/></button>
        {
         
