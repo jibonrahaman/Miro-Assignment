@@ -12,7 +12,7 @@ export default function Loved() {
    <button className=' px-6 py-2 mt-2 border rounded-full duration-500 hover:bg-blue hover:text-white text-lg'>See all customer stories →</button>
       </div> 
 
-      <Flex className=' justify-between pt-10'>
+      <Flex className='md:justify-between justify-center flex-wrap  pt-10'>
        <div className=' w-72'>
         {/* 1st svg  */}
 <svg width="288" height="62" viewBox="0 0 288 62" fill="none" >
@@ -25,10 +25,10 @@ export default function Loved() {
 </g>
 
 </svg>
-<p className=' text-[#696688] text-lg py-6 '>“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”</p>
+<p className=' text-[#696688] text-lg md:py-6 '>“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”</p>
 
        </div>
-       <div className='w-72'>
+       <div className='w-72 py-3 md:py-0'>
            {/* 2nd svg  */}
            <svg width="289" height="62" viewBox="0 0 289 62" fill="none" >
 <g >
@@ -40,7 +40,7 @@ export default function Loved() {
 </clipPath>
 </defs>
 </svg>
-<p className=' text-[#696688] text-lg py-6 '>“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>
+<p className=' text-[#696688] text-lg md:py-6 '>“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>
 
        </div> 
        
@@ -56,28 +56,28 @@ export default function Loved() {
 </clipPath>
 </defs>
         </svg>
-        <p className=' text-[#696688] text-lg py-6 '>“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</p>
+        <p className=' text-[#696688] text-lg md:py-6 '>“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</p>
 
        </div>
       </Flex>
 
-      <Flex className=' justify-between'>
-      <Flex className=' gap-x-2 w-80'>
-    <Images src={mustafa} alt={mustafa}/>
+      <Flex className=' md:justify-between pt-5 md:pt-0 gap-x-5'>
+      <Flex className=' gap-x-2 flex-col md:flex-row '>
+    <Images src={mustafa} alt={mustafa} className='w-16 '/>
     <div className=' text-[#696688] text-sm'>
         <h5>Roxanne Mustafa</h5>
         <h6 className='pt-1'>Design Team Lead at VMware</h6>
     </div>
 </Flex>
-<Flex className=' gap-x-2 pb-0  w-80'>
-    <Images src={jane} alt={jane}/>
+<Flex className=' gap-x-2 pb-0 flex-col md:flex-row '>
+    <Images src={jane} alt={jane} className='w-16 '/>
     <div className=' text-[#696688] text-sm'>
         <h5>Jane Ashley</h5>
         <h6 className='pt-1'>Head of Design at DocuSign</h6>
     </div>
 </Flex>
-<Flex className=' gap-x-2  w-80'>
-    <Images src={laura} alt={laura}/>
+<Flex className=' gap-x-2 flex-col md:flex-row '>
+    <Images src={laura} alt={laura} className='w-16 '/>
     <div className=' text-[#696688] text-sm'>
         <h5>Laura Baird</h5>
         <h6 className='pt-1'>Associate Design Director at frog</h6>
