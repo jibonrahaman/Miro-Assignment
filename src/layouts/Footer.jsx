@@ -5,9 +5,9 @@ import { IoLogoYoutube } from "react-icons/io5";
 
 export default function Footer({className}) {
   return ( 
-   <section className={`${className} bg-[#02033b]`}>
+   <section className={`${className} bg-[#02033b] px-5`}>
   <div className=' py-10 max-w-container mx-auto'> 
-  <Flex className=' justify-between w-full'>
+  <Flex className=' justify-between flex-col gap-y-10 md:flex-row w-full'>
     <div className=' text-white'>
     <h3 className=' text-2xl font-extrabold font-inter'>Scan. Detect. Remove.</h3>
     <Flex className=' py-4 gap-x-12 text-3xl'>
@@ -19,7 +19,7 @@ export default function Footer({className}) {
         <h6 className=' underline'>Privacy Policy</h6>
         <h6 className=' underline'>Terms of Service</h6>
     </Flex>
-    <h6 className=' w-96 pb-3'>Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</h6>
+    <h6 className='w-full md:w-96 pb-3'>Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</h6>
     <h6>Designed & developed by <span className=' underline'>Bigger Picture</span></h6>
     </div>
 
@@ -34,7 +34,7 @@ export default function Footer({className}) {
      </div>
     </div>
 
-    <div className=' bg-[#ffc247] w-[30%] p-8 rounded-3xl'>
+    <div className=' bg-[#ffc247] md:w-[30%] p-8 rounded-3xl'>
       <h3 className=' font-extrabold text-2xl font-inter'>Sign up to our newsletter</h3>
       <p className=' font-inter text-sm py-4'>Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
       <Flex>
@@ -43,7 +43,7 @@ export default function Footer({className}) {
       </Flex>
     </div>
     </Flex>
-    <p className=' font-inter  text-gray-300 w-4/6 pt-10'>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
+    <p className=' font-inter  text-gray-300 md:w-4/6 pt-10'>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
   </div>
    </section>
   )

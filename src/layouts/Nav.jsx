@@ -27,13 +27,13 @@ export default function Nav() {
    const dropref=useRef(null);
   return (
      // 1nd part of project
-    <section className='px-3 md:px-0'>
+    <section className='px-1 md:px-0'>
       <nav className="md:px-28  mx-auto pt-3 relative  md:pt-5 font-inter font-normal"> 
       <Flex className='items-center justify-between'>
         <Flex className="md:gap-x-6 gap-x-2 items-center">
         <Images src={miroLogo} alt={miroLogo} className=' w-16 md:w-full' />
           <Flex className="gap-x-2 mt-2">
-            <ul className="flex md:gap-x-5 gap-x-2  text-[10px] md:text-base">
+            <ul className="flex md:gap-x-5 gap-x-2  text-[9px] md:text-base">
               <Flex className="items-center gap-x-1">
               <li className="relative after:absolute after:content-[''] after:bottom-[-5px] after:left-[50%] hover:after:left-0 hover:after:right-0 after:w-0 after:h-1 after:rounded-md after:bg-black/70 duration-700 after:duration-700 hover:after:w-full">Product</li>
                 <FaAngleDown />

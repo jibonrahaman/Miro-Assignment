@@ -13,7 +13,7 @@ import Footer from "../layouts/Footer";
 
 export default function Home() {
   return (
-    <div className=" ">
+    <div className=" overflow-x-hidden">
     <Nav/>
     <Ideas />
     <Just_Icon />
