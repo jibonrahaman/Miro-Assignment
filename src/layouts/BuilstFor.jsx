@@ -10,7 +10,7 @@ import n from '/images/n.png'
 
 export default function BuilstFor() {
   return (
-    <section className=" max-w-container mx-auto  pt-24">
+    <section className=" max-w-container px-3 md:px-0 mx-auto  pt-24">
     <Heading text='Built for all kinds of teams'/>
     <Flex className=' md:justify-between gap-x-5 justify-center gap-y-3 flex-wrap pt-8'>
     <button className=' px-4 py-2 rounded-full bg-transparent hover:bg-gray-300 duration-700 border '>UX & Design</button>

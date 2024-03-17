@@ -6,7 +6,7 @@ import jane from '/images/jane.jpg'
 import laura from '/images/laura.jpg'
 export default function Loved() {
   return (
-    <section className=" max-w-container mx-auto py-20">
+    <section className=" max-w-container px-3 md:px-0 mx-auto py-20">
    <div className=' flex flex-col items-center gap-y-5'>
    <Heading text="Loved by the world's best teams"/>
    <button className=' px-6 py-2 mt-2 border rounded-full duration-500 hover:bg-blue hover:text-white text-lg'>See all customer stories →</button>

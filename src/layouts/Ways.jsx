@@ -2,7 +2,7 @@ import ways from '/images/ways.png'
 import Images from '../common/Images'
 export default function Ways() {
   return (
-    <section className=" md:px-28  pt-14">
+    <section className=" md:px-28 px-3  pt-14">
      <div className=' flex items-end justify-end relative'>
      <Images src={ways} alt={ways} className=' '/>
      <div  className=' absolute top-10 md:top-[40%] right-[-30px] md:right-10 text-center'>

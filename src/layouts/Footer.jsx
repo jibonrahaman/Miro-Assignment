@@ -3,9 +3,9 @@ import { FaTwitter } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";
 
-export default function Footer() {
+export default function Footer({className}) {
   return ( 
-   <section className=' bg-[#02033b]'>
+   <section className={`${className} bg-[#02033b]`}>
   <div className=' py-10 max-w-container mx-auto'> 
   <Flex className=' justify-between w-full'>
     <div className=' text-white'>

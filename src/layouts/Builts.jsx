@@ -4,7 +4,7 @@
  import built from '/images/built.png'
 export default function Builts() {
   return (
-    <section className=" max-w-container mx-auto  pt-24">
+    <section className=" max-w-container px-3 md:px-0 mx-auto  pt-24">
     <Heading text='Built for the way you work'/>
     <Flex className=' md:justify-between gap-x-5 justify-center gap-y-3 flex-wrap pt-8'>
     <button className=' px-2 py-2 rounded-full bg-transparent hover:bg-gray-300 duration-700 border '>Brainstorming</button>

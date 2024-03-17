@@ -13,7 +13,7 @@ import Footer from "../layouts/Footer";
 
 export default function Home() {
   return (
-    <div className=" px-3 md:px-0">
+    <div className=" ">
     <Nav/>
     <Ideas />
     <Just_Icon />

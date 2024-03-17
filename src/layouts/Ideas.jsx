@@ -10,7 +10,7 @@ import Heading from '../common/Heading'
 export default function Ideas() {
   return (
     // 2nd part of project
-    <section className=" max-w-container mx-auto mt-10 md:mt-16 font-inter ">
+    <section className=" max-w-container px-3 md:px-0 mx-auto mt-10 md:mt-16 font-inter ">
       <Flex className=" justify-between">
         <div className=' flex flex-col   md:w-[450px] '>
           <Heading text='Take ideas from better to best' />

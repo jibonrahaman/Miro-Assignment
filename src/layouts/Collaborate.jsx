@@ -5,7 +5,7 @@ import Heading from '../common/Heading'
 export default function Collaborate() {
      return (
           // 4nd part of project
-          <section className=" max-w-container mx-auto  pt-24">
+          <section className=" max-w-container px-3 md:px-0 mx-auto  pt-24">
                <div className=" flex text-center  justify-center relative" >
                     <Heading className='md:w-2/4' text='Collaborate without constraints' />
                     <CollaborateSvg className=" absolute top-[-71px] right-0 md:right-64 " />

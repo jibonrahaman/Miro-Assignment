@@ -4,7 +4,7 @@ import work from '/images/work.jpg'
 import Heading from '../common/Heading'
 export default function Work() {
   return (
-    <section className=" max-w-container mx-auto ">
+    <section className=" max-w-container px-3 md:px-0 mx-auto ">
       <Flex className=" w-full justify-between items-center">
        <div className=' md:w-[45%]'>
         <Heading  text='Work together, wherever you work'/>

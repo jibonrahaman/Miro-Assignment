@@ -3,7 +3,7 @@ import Images from '../common/Images'
 import connect from '/images/connect.png'
 export default function Connect() {
   return (
-    <section className=" max-w-container mx-auto pt-12 md:pt-0">
+    <section className=" max-w-container px-3 md:px-0 mx-auto pt-12 md:pt-0">
        <Flex className=' justify-between flex-col md:flex-row gap-y-5 items-center'>
           <Images src={connect} alt={connect} className='md:w-[45%]' />
           <div className=' md:w-[45%]'>
