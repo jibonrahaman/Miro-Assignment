@@ -64,7 +64,7 @@ export default function Nav() {
         </Flex>
         </div>
         {/*responsive menu */}
-         <div  className=' md:hidden  block mt-3  text-xl pr-2'>
+         <div  className=' md:hidden  block mt-3  text-xl '>
         <button onClick={handleBars}><FaBars/></button>
        {
         
